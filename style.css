@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 14px;
+    background-color: hsl(234, 29%, 20%);
+    font-family: 'Roboto' , 'sans-serif';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: hsl(234, 29%, 20%);
+    
+}
+
+
+.container{
+    width: 700px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    height: 500px;
+}
+
+.photo{
+    width: 350px;
+    background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 15px;
+
+}
+
+.content{
+    width: 300px;
+    text-justify: auto;
+    padding: 28px;
+}
+.content p{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.content h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 50px 0  15px 0;
+}
+
+.content .list{
+    font-size: 12px;
+    margin-bottom: 15px;
+}
+
+.content .Email{
+    display: block;
+    margin: 15px 0 0 0;
+}
+.content li{
+    background-image: url(./assets/images/icon-list.svg);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 2rem;
+    list-style-type: none;
+    background-size: 0.8rem 0.8rem;
+    margin: 15px 0 15px 0;
+}
+
+
+.content .Email span{
+    font-weight: 700;
+}
+
+.content .Email input{
+    width: 270px;
+    border-radius: 5px;
+    border: solid 0.2px hsl(231, 7%, 60%);
+    padding: 14px;
+    margin:  15px 0 15px 0 ;
+}
+
+.content .Email button{
+    width: 100%;
+    background-color: hsl(234, 29%, 20%);
+    color: #fff;
+    border-radius: 5px;
+    padding: 14px;
+    font-family: 'Roboto' , 'sans-serif';
+    cursor: pointer;
+}
